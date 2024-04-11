@@ -1,6 +1,8 @@
 //this is called the by frontend
 //import 'models/models.dart';
 
+import 'package:user_repository/src/models/user.dart';
+
 abstract class UserRepository {
   Stream<MyUser?> get user;
 
